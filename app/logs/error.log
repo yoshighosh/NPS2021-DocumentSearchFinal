@@ -142,3 +142,30 @@
 [Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
 [Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508]                        ^\r, referer: http://localhost:5000/
 [Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570] [2021-07-01 15:13:29,281] ERROR in app: Exception on / [GET]\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570] Traceback (most recent call last):\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     response = self.full_dispatch_request()\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     rv = self.handle_user_exception(e)\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     rv = self.dispatch_request()\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "C:\\Users/pradi/nps2021/app\\views.py", line 7, in home\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     return render_template('home.html')\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     return _render(\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     rv = template.render(context)\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     self.environment.handle_exception()\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     raise rewrite_traceback_stack(source=source)\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\home.html", line 12, in top-level template code\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     {% include 'favicon.html' %}\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 59, in get_source\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     return self._get_source_fast(environment, template)\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 95, in _get_source_fast\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570]     raise TemplateNotFound(template)\r
+[Thu Jul 01 15:13:29.298338 2021] [wsgi:error] [pid 11780:tid 1356] [client ::1:57570] jinja2.exceptions.TemplateNotFound: favicon.html\r
