@@ -1,0 +1,144 @@
+[Wed Jun 30 21:43:34.628917 2021] [wsgi:error] [pid 2696:tid 1356] [client ::1:50296] mod_wsgi (pid=2696): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:43:34.628917 2021] [wsgi:error] [pid 2696:tid 1356] [client ::1:50296] mod_wsgi (pid=2696): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:43:34.658262 2021] [wsgi:error] [pid 2696:tid 1356] [client ::1:50296]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:43:34.658262 2021] [wsgi:error] [pid 2696:tid 1356] [client ::1:50296]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:43:34.658262 2021] [wsgi:error] [pid 2696:tid 1356] [client ::1:50296]                        ^\r
+[Wed Jun 30 21:43:34.658262 2021] [wsgi:error] [pid 2696:tid 1356] [client ::1:50296] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:43:34.785655 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50297] mod_wsgi (pid=2696): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:43:34.785655 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50297] mod_wsgi (pid=2696): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:43:34.785655 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50297]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:34.785655 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50297]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:34.785655 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50297]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:34.785655 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50297] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:49.441048 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50302] mod_wsgi (pid=2696): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:43:49.441048 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50302] mod_wsgi (pid=2696): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:43:49.441048 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50302]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:43:49.441048 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50302]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:43:49.441048 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50302]                        ^\r
+[Wed Jun 30 21:43:49.441048 2021] [wsgi:error] [pid 2696:tid 1348] [client ::1:50302] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:43:50.143215 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50303] mod_wsgi (pid=2696): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:43:50.143215 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50303] mod_wsgi (pid=2696): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:43:50.143215 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50303]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:50.143215 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50303]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:50.143215 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50303]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:43:50.143215 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50303] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:45:24.779866 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50369] mod_wsgi (pid=2696): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:45:24.779866 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50369] mod_wsgi (pid=2696): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:45:24.779866 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50369]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:45:24.779866 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50369]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:45:24.780863 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50369]                        ^\r
+[Wed Jun 30 21:45:24.780863 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50369] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:45:24.829437 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50371] mod_wsgi (pid=2696): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:45:24.829437 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50371] mod_wsgi (pid=2696): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:45:24.829437 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50371]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:45:24.829437 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50371]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:45:24.829437 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50371]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:45:24.829437 2021] [wsgi:error] [pid 2696:tid 1340] [client ::1:50371] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:56.970383 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50691] mod_wsgi (pid=8084): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:48:56.970383 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50691] mod_wsgi (pid=8084): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:48:56.973406 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50691]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:48:56.973406 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50691]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:48:56.973406 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50691]                        ^\r
+[Wed Jun 30 21:48:56.973406 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50691] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:48:57.079740 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50692] mod_wsgi (pid=8084): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:48:57.079740 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50692] mod_wsgi (pid=8084): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:48:57.079740 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50692]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:57.079740 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50692]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:57.079740 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50692]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:57.079740 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50692] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:59.558974 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50695] mod_wsgi (pid=8084): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:48:59.558974 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50695] mod_wsgi (pid=8084): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:48:59.558974 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50695]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:48:59.558974 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50695]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:48:59.558974 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50695]                        ^\r
+[Wed Jun 30 21:48:59.558974 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:50695] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:48:59.570940 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50696] mod_wsgi (pid=8084): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:48:59.570940 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50696] mod_wsgi (pid=8084): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:48:59.570940 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50696]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:59.570940 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50696]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:59.570940 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50696]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:48:59.570940 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:50696] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:51:56.862381 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:51037] mod_wsgi (pid=8084): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:51:56.862381 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:51037] mod_wsgi (pid=8084): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:51:56.862381 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:51037]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:51:56.862381 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:51037]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:51:56.862381 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:51037]                        ^\r
+[Wed Jun 30 21:51:56.862381 2021] [wsgi:error] [pid 8084:tid 1348] [client ::1:51037] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:51:56.873356 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:51038] mod_wsgi (pid=8084): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:51:56.873356 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:51038] mod_wsgi (pid=8084): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:51:56.874347 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:51038]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:51:56.874347 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:51038]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:51:56.874347 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:51038]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:51:56.874347 2021] [wsgi:error] [pid 8084:tid 1356] [client ::1:51038] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:00.753140 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51128] mod_wsgi (pid=7884): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:53:01.005958 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51128] mod_wsgi (pid=7884): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:53:01.018917 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51128]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:53:01.018917 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51128]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:53:01.018917 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51128]                        ^\r
+[Wed Jun 30 21:53:01.018917 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51128] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:53:01.041844 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51129] mod_wsgi (pid=7884): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:53:01.041844 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51129] mod_wsgi (pid=7884): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:53:01.041844 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51129]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:01.041844 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51129]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:01.041844 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51129]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:01.041844 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51129] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:02.510763 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51132] mod_wsgi (pid=7884): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:53:02.510763 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51132] mod_wsgi (pid=7884): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:53:02.510763 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51132]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:53:02.510763 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51132]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:53:02.510763 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51132]                        ^\r
+[Wed Jun 30 21:53:02.510763 2021] [wsgi:error] [pid 7884:tid 1348] [client ::1:51132] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:53:02.521732 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51133] mod_wsgi (pid=7884): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:53:02.521732 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51133] mod_wsgi (pid=7884): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:53:02.521732 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51133]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:02.522730 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51133]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:02.522730 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51133]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:53:02.522730 2021] [wsgi:error] [pid 7884:tid 1356] [client ::1:51133] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:54:27.668138 2021] [wsgi:error] [pid 10164:tid 1348] [client ::1:51297] mod_wsgi (pid=10164): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:54:27.668138 2021] [wsgi:error] [pid 10164:tid 1348] [client ::1:51297] mod_wsgi (pid=10164): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:54:27.671130 2021] [wsgi:error] [pid 10164:tid 1348] [client ::1:51297]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:54:27.671130 2021] [wsgi:error] [pid 10164:tid 1348] [client ::1:51297]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:54:27.671130 2021] [wsgi:error] [pid 10164:tid 1348] [client ::1:51297]                        ^\r
+[Wed Jun 30 21:54:27.671130 2021] [wsgi:error] [pid 10164:tid 1348] [client ::1:51297] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:54:27.710025 2021] [wsgi:error] [pid 10164:tid 1332] [client ::1:51300] mod_wsgi (pid=10164): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:54:27.710025 2021] [wsgi:error] [pid 10164:tid 1332] [client ::1:51300] mod_wsgi (pid=10164): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:54:27.710025 2021] [wsgi:error] [pid 10164:tid 1332] [client ::1:51300]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:54:27.710025 2021] [wsgi:error] [pid 10164:tid 1332] [client ::1:51300]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:54:27.711022 2021] [wsgi:error] [pid 10164:tid 1332] [client ::1:51300]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:54:27.711022 2021] [wsgi:error] [pid 10164:tid 1332] [client ::1:51300] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:55:33.217198 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51394] mod_wsgi (pid=12164): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:55:33.217198 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51394] mod_wsgi (pid=12164): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:55:33.220190 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51394]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:55:33.220190 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51394]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:55:33.220190 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51394]                        ^\r
+[Wed Jun 30 21:55:33.220190 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51394] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:55:33.233131 2021] [wsgi:error] [pid 12164:tid 1340] [client 127.0.0.1:51395] mod_wsgi (pid=12164): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:55:33.233131 2021] [wsgi:error] [pid 12164:tid 1340] [client 127.0.0.1:51395] mod_wsgi (pid=12164): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:55:33.233131 2021] [wsgi:error] [pid 12164:tid 1340] [client 127.0.0.1:51395]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:55:33.233131 2021] [wsgi:error] [pid 12164:tid 1340] [client 127.0.0.1:51395]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:55:33.233131 2021] [wsgi:error] [pid 12164:tid 1340] [client 127.0.0.1:51395]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:55:33.233131 2021] [wsgi:error] [pid 12164:tid 1340] [client 127.0.0.1:51395] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
+[Wed Jun 30 21:55:40.566967 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51407] mod_wsgi (pid=12164): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:55:40.566967 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51407] mod_wsgi (pid=12164): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:55:40.566967 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51407]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:55:40.566967 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51407]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:55:40.566967 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51407]                        ^\r
+[Wed Jun 30 21:55:40.566967 2021] [wsgi:error] [pid 12164:tid 1348] [client 127.0.0.1:51407] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:55:51.457183 2021] [wsgi:error] [pid 12164:tid 1332] [client 127.0.0.1:51423] mod_wsgi (pid=12164): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:55:51.457183 2021] [wsgi:error] [pid 12164:tid 1332] [client 127.0.0.1:51423] mod_wsgi (pid=12164): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:55:51.457183 2021] [wsgi:error] [pid 12164:tid 1332] [client 127.0.0.1:51423]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:55:51.457183 2021] [wsgi:error] [pid 12164:tid 1332] [client 127.0.0.1:51423]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:55:51.458183 2021] [wsgi:error] [pid 12164:tid 1332] [client 127.0.0.1:51423]                        ^\r
+[Wed Jun 30 21:55:51.458183 2021] [wsgi:error] [pid 12164:tid 1332] [client 127.0.0.1:51423] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:56:51.267597 2021] [wsgi:error] [pid 6304:tid 1356] [client ::1:51507] mod_wsgi (pid=6304): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:56:51.268559 2021] [wsgi:error] [pid 6304:tid 1356] [client ::1:51507] mod_wsgi (pid=6304): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Jun 30 21:56:51.271586 2021] [wsgi:error] [pid 6304:tid 1356] [client ::1:51507]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r
+[Wed Jun 30 21:56:51.271586 2021] [wsgi:error] [pid 6304:tid 1356] [client ::1:51507]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r
+[Wed Jun 30 21:56:51.271586 2021] [wsgi:error] [pid 6304:tid 1356] [client ::1:51507]                        ^\r
+[Wed Jun 30 21:56:51.271586 2021] [wsgi:error] [pid 6304:tid 1356] [client ::1:51507] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r
+[Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508] mod_wsgi (pid=6304): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508] mod_wsgi (pid=6304): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 3\r, referer: http://localhost:5000/
+[Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508]     sys.path.insert(0, 'C:\\Users\\pradi\\nps2021\\app')\r, referer: http://localhost:5000/
+[Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508]                        ^\r, referer: http://localhost:5000/
+[Wed Jun 30 21:56:51.314436 2021] [wsgi:error] [pid 6304:tid 1348] [client 127.0.0.1:51508] SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \\UXXXXXXXX escape\r, referer: http://localhost:5000/
