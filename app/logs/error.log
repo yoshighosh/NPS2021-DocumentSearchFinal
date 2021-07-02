@@ -196,3 +196,30 @@
 [Thu Jul 01 15:26:00.187795 2021] [wsgi:error] [pid 8604:tid 1340] [client ::1:58746]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 95, in _get_source_fast\r
 [Thu Jul 01 15:26:00.187795 2021] [wsgi:error] [pid 8604:tid 1340] [client ::1:58746]     raise TemplateNotFound(template)\r
 [Thu Jul 01 15:26:00.187795 2021] [wsgi:error] [pid 8604:tid 1340] [client ::1:58746] jinja2.exceptions.TemplateNotFound: favicon.html\r
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011] [2021-07-01 17:48:17,670] ERROR in app: Exception on /search [GET]\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     rv = self.dispatch_request()\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "C:\\Users/pradi/nps2021/app\\views.py", line 11, in search\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     return render_template('team-info-search.html')\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 148, in render_template\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     ctx.app.jinja_env.get_or_select_template(template_name_or_list),\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1068, in get_or_select_template\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     return self.get_template(template_name_or_list, parent, globals)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 997, in get_template\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     return self._load_template(name, globals)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 958, in _load_template\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     template = self.loader.load(self, name, self.make_globals(globals))\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\loaders.py", line 125, in load\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     source, filename, uptodate = self.get_source(environment, name)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 59, in get_source\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     return self._get_source_fast(environment, template)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 95, in _get_source_fast\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     raise TemplateNotFound(template)\r, referer: http://localhost:5000/
+[Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011] jinja2.exceptions.TemplateNotFound: team-info-search.html\r, referer: http://localhost:5000/
