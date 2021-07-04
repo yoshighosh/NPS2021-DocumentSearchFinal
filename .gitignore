@@ -1,3 +1,4 @@
 # created by virtualenv automatically
 
-app/logs/*
+app/logs/access.log
+app/logs/error.log
