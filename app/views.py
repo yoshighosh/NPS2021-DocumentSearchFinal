@@ -12,3 +12,7 @@ def search():
 
 if __name__ == '__main__':
    app.run()
+
+@app.route('/upload_files', methods=["GET", "POST"])
+def upload_files():
+   return render_template('upload_files.html')
