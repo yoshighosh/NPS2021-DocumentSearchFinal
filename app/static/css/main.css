@@ -264,7 +264,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #c9c9c9;
+		border-left: solid 4px #07284b;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -273,7 +273,7 @@ input, select, textarea {
 	code {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 1px #07284b;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -296,7 +296,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #c9c9c9;
+		border-bottom: solid 1px #07284b;
 		margin: 2em 0;
 	}
 
@@ -1880,7 +1880,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #c9c9c9;
+				border-top: solid 1px #07284b;
 				padding: 0.5em 0;
 			}
 
@@ -2134,7 +2134,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: none;
 		border-radius: 0;
-		border-bottom: solid 1px #c9c9c9;
+		border-bottom: solid 1px #07284b;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2163,7 +2163,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23c9c9c9' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%2307284b' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -2213,7 +2213,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #585858;
+			color: #07284b;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2236,7 +2236,7 @@ input, select, textarea {
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				border-radius: 4px;
-				border: solid 1px #c9c9c9;
+				border: solid 1px #07284b;
 				content: '';
 				display: inline-block;
 				height: 1.8em;
@@ -2250,8 +2250,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #585858;
-			border-color: #585858;
+			background: #07284b;
+			border-color: #07284b;
 			color: #c7e0fa;
 			content: '\f00c';
 		}
@@ -2274,7 +2274,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 1px #07284b;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2366,7 +2366,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #c9c9c9;
+			border: solid 1px #07284b;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2387,11 +2387,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #c9c9c9;
+			border-bottom: solid 2px #07284b;
 		}
 
 		table tfoot {
-			border-top: solid 2px #c9c9c9;
+			border-top: solid 2px #07284b;
 		}
 
 		table.alt {
@@ -2399,7 +2399,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #c9c9c9;
+				border: solid 1px #07284b;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2438,8 +2438,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		box-shadow: inset 0 0 0 2px #07284b;
+		color: #07284b !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2511,7 +2511,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
+			background-color: #07284b;
 			color: #c7e0fa !important;
 		}
 
@@ -2916,7 +2916,7 @@ input, select, textarea {
 						}
 
 						#header nav ul li a[href="#menu"]:after {
-							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23585858%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
+							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %2307284b%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
 							opacity: 1;
 						}
 
@@ -3066,7 +3066,7 @@ input, select, textarea {
 			}
 
 			#menu > .close:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23585858%3B %7D%3C/style%3E%3Cline x1='15' y1='15' x2='85' y2='85' /%3E%3Cline x1='85' y1='15' x2='15' y2='85' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %2307284b%3B %7D%3C/style%3E%3Cline x1='15' y1='15' x2='85' y2='85' /%3E%3Cline x1='85' y1='15' x2='15' y2='85' /%3E%3C/svg%3E");
 				opacity: 1;
 			}
 

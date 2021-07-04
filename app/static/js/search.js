@@ -1,93 +1,23 @@
-function changeFilter(checkboxElem) {
-    if (checkboxElem.id == "Match Feeder Bot") {
-        match_feeder = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Stacking Bot") {
-        match_stacker = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Speedy") {
-        match_speedy = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Tall Lift") {
-        match_tall_lift = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Fits Under Bridge") {
-        match_under_bridge = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Doesn't Fit Under Bridge") {
-        match_not_under_bridge = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Toppled Own Tower") {
-        match_knocked_tower = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match DC :(") {
-        match_DC = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Dangerous Driving") {
-        match_dangerous_driving = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Steps Over Bridge") {
-        match_steps_over_bridge = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match GP :)") {
-        match_very_gp = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Not GP :(") {
-        match_not_gp = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Gold Division") {
-        match_gold = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Silicon Division") {
-        match_silicon = checkboxElem.checked;
-    }
-    searchChange();
-}
+var image_files = false;
+var pdf_files = false;
+var word_documents = false;
+var powerpoint = false;
+
+
 
 function changeFilter(checkboxElem) {
-    if (checkboxElem.id == "Match Feeder Bot") {
-        match_feeder = checkboxElem.checked;
+    if (checkboxElem.id == "Image Files") {
+        image_files = checkboxElem.checked;
     }
-    if (checkboxElem.id == "Match Stacking Bot") {
-        match_stacker = checkboxElem.checked;
+    if (checkboxElem.id == "PDF Files") {
+        pdf_files = checkboxElem.checked;
     }
-    if (checkboxElem.id == "Match Speedy") {
-        match_speedy = checkboxElem.checked;
+    if (checkboxElem.id == "Word Documents") {
+        word_documents = checkboxElem.checked;
     }
-    if (checkboxElem.id == "Match Tall Lift") {
-        match_tall_lift = checkboxElem.checked;
+    if (checkboxElem.id == "PowerPoint") {
+        powerpoint = checkboxElem.checked;
     }
-    if (checkboxElem.id == "Match Fits Under Bridge") {
-        match_under_bridge = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Doesn't Fit Under Bridge") {
-        match_not_under_bridge = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Toppled Own Tower") {
-        match_knocked_tower = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match DC :(") {
-        match_DC = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Dangerous Driving") {
-        match_dangerous_driving = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Steps Over Bridge") {
-        match_steps_over_bridge = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match GP :)") {
-        match_very_gp = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Not GP :(") {
-        match_not_gp = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Gold Division") {
-        match_gold = checkboxElem.checked;
-    }
-    if (checkboxElem.id == "Match Silicon Division") {
-        match_silicon = checkboxElem.checked;
-    }
-    searchChange();
 }
 
 
@@ -111,5 +41,3 @@ function toggleAllFilterVisibility() {
     }
 }
 
-
-searchChange();
