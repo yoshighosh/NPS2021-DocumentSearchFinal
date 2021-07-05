@@ -230,7 +230,66 @@ def getFileID(file_path):
         if con:
             con.close()
 
+def loadFileData(filepath):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        fileID = getFileID(filepath)
+        
+        filedata = convertToBinaryData(filepath)
+        
+        sql = ('insert into FILES(fileID, filedata) values(:fileID,:filedata)')
+        
+        cursor.execute(sql, [fileID, filedata])
+        
+        con.commit()
+        
+        print("Successfuly loaded file data into FILES")
+    
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
 
 
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def loadInText(filepath):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        fileID = getFileID(filepath)
+    
+        fileText = getText(filepath)
+        
+        text = stringToBinary(fileText)
+        
+        sql = ('insert into TEXT(fileID, text) values(:fileID,:text)')
+        
+        cursor.execute(sql, [fileID, text])
+        
+        con.commit()
+        
+        print("Successfuly loaded file text into TEXT")
+    
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def loadInFile(filepath):
+    loadFileName(filepath)
+    loadFileData(filepath)
+    loadInText(filepath)
+    print("Successfully loaded in file into database")
 
 
