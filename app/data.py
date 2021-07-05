@@ -20,6 +20,7 @@ import glob
 import docx
 import os
 from sklearn.metrics.pairwise import cosine_similarity
+import cx_Oracle
 
 
 def get_grayscale(image):
@@ -89,3 +90,32 @@ def preprocessing(text):
         word = lemmatizer.lemmatize(word)
     final_string = " ".join(final_text)
     return final_string
+
+def createFramework(connection):
+    try:
+        con = cx_Oracle.connect(connection)
+        cursor = con.cursor()
+        cursor.execute("CREATE TABLE FILENAMES (fileID int NOT NULL PRIMARY KEY, filepath varchar(255), filename varchar(255))")
+
+        print("File Name Table created successfully.")
+        
+        cursor.execute("CREATE TABLE TEXT (fileID int, text LONG, FOREIGN KEY (fileID) REFERENCES FILENAMES(fileID))")
+        
+        print("Text Table created successfully.")
+        
+        cursor.execute("CREATE TABLE FILES (fileID int, filedata BLOB, FOREIGN KEY (fileID) REFERENCES FILENAMES(fileID))")
+        
+        print("Files Table created successfully.")
+        
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close() 
+
+
+
