@@ -223,3 +223,4 @@
 [Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 95, in _get_source_fast\r, referer: http://localhost:5000/
 [Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     raise TemplateNotFound(template)\r, referer: http://localhost:5000/
 [Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011] jinja2.exceptions.TemplateNotFound: team-info-search.html\r, referer: http://localhost:5000/
+[Mon Jul 05 15:06:51.768327 2021] [wsgi:error] [pid 16152:tid 1344] [client ::1:54764] <FileStorage: 'SampleResume.docx' ('application/vnd.openxmlformats-officedocument.wordprocessingml.document')>\r, referer: http://localhost:5000/upload_files

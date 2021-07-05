@@ -18,6 +18,5 @@ def upload_files():
    if request.method == "POST":
      if request.files:
        new_file = request.files["new_file"]  
-       print(new_file)
        return redirect(request.url)
    return render_template('upload_files.html')
