@@ -144,8 +144,91 @@ def deleteFramework(connection):
         if con:
             con.close() 
 
+def convertToBinaryData(filename):
+    with open(filename, 'rb') as file:
+        binaryData = file.read()
+    return binaryData
+
+def write_file(data, filename):
+    with open(filename, 'wb') as file:
+        file.write(data)
+
+def stringToBinary(string):
+    final_string = ''.join(format(i, '08b') for i in bytearray(string, encoding ='utf-8'))
+    return final_string
+
+def binaryToString(binary):
+    return ''.join(chr(int(binary[i*8:i*8+8],2)) for i in range(len(binary)//8))
+
+def getText(filepath):
+    file_type = detectFileType(filepath)
+    string_text = ""
+    if file_type == "jpg":
+        string_text = getImageText(filepath)
+    elif file_type == "pdf":
+        string_text = getPDFText(filepath)
+    elif file_type == "pptx":
+        string_text = getPPTXText(filepath)
+    elif file_type == "docx":
+        string_text = getDOCXText(filepath)
+    return preprocessing(string_text)
+    
+def loadFileName(filepath):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        filename = getFileName(filepath)
+        
+        cursor.execute("select max(fileID) from FILENAMES") 
+        
+        for maxID in cursor:
+            maxID = maxID[0]
+            if maxID == None:
+                fileID = 1
+            else:
+                fileID = maxID + 1
+
+        sql = ('insert into FILENAMES(fileID, filepath, filename) values(:fileID,:filepath,:filename)')
+        
+        cursor.execute(sql, [fileID, filepath, filename])
+        
+        con.commit()
+        
+        print("Successfuly loaded file name into FILENAMES")
+    
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
 
 
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def getFileID(file_path):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        sql = ('select * from FILENAMES')
+        
+        cursor.execute(sql)
+        
+        for fileID, filepath, filename in cursor:
+            if filepath == file_path:
+                return fileID
+    
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
 
 
 
