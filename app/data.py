@@ -117,5 +117,37 @@ def createFramework(connection):
         if con:
             con.close() 
 
+def deleteFramework(connection):
+    try:
+        con = cx_Oracle.connect(connection)
+        cursor = con.cursor()
+        
+        cursor.execute("DROP TABLE TEXT")
+        
+        print("Text Table dropped successfully.")
+        
+        cursor.execute("DROP TABLE FILES")
+        
+        print("Files Table dropped successfully")
+        
+        cursor.execute("DROP TABLE FILENAMES")
+
+        print("File Name Table dropped successfully.")
+
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close() 
+
+
+
+
+
+
 
 
