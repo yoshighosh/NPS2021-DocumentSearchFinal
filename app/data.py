@@ -14,7 +14,7 @@ nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from pdf2image import convert_from_path
-from IPython.display import Image
+# from IPython.display import Image
 from pptx import Presentation
 import glob
 import docx
@@ -178,7 +178,8 @@ def loadFileName(filepath):
         con = cx_Oracle.connect('YOSHI/nps2021@localhost')
         cursor = con.cursor()
         
-        filename = getFileName(filepath)
+        #filename = getFileName(filepath)
+        filename = filepath.filename
         
         cursor.execute("select max(fileID) from FILENAMES") 
         

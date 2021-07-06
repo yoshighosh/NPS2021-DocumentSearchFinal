@@ -224,3 +224,568 @@
 [Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011]     raise TemplateNotFound(template)\r, referer: http://localhost:5000/
 [Thu Jul 01 17:48:17.682245 2021] [wsgi:error] [pid 15420:tid 1328] [client ::1:61011] jinja2.exceptions.TemplateNotFound: team-info-search.html\r, referer: http://localhost:5000/
 [Mon Jul 05 15:06:51.768327 2021] [wsgi:error] [pid 16152:tid 1344] [client ::1:54764] <FileStorage: 'SampleResume.docx' ('application/vnd.openxmlformats-officedocument.wordprocessingml.document')>\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 15:53:11.352864 2021] [wsgi:error] [pid 16152:tid 1328] [client ::1:58767] <FileStorage: 'LeafDiskLabPoster(1).pptx' ('application/vnd.openxmlformats-officedocument.presentationml.presentation')>\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 16:30:47.493522 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122] mod_wsgi (pid=23700): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:30:47.493522 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122] mod_wsgi (pid=23700): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122] Traceback (most recent call last):\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122]     from views import app as application\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122]     import data\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122]     import cv2\r
+[Mon Jul 05 16:30:47.495516 2021] [wsgi:error] [pid 23700:tid 1356] [client ::1:62122] ModuleNotFoundError: No module named 'cv2'\r
+[Mon Jul 05 16:37:09.963170 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713] mod_wsgi (pid=10464): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713] mod_wsgi (pid=10464): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713] Traceback (most recent call last):\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713]     from views import app as application\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713]     import data\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713]     import cv2\r
+[Mon Jul 05 16:37:09.964169 2021] [wsgi:error] [pid 10464:tid 1364] [client ::1:62713] ModuleNotFoundError: No module named 'cv2'\r
+[Mon Jul 05 16:37:11.662379 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714] mod_wsgi (pid=10464): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:37:11.662379 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714] mod_wsgi (pid=10464): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714] Traceback (most recent call last):\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714]     from views import app as application\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714]     import data\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714]     import cv2\r
+[Mon Jul 05 16:37:11.663378 2021] [wsgi:error] [pid 10464:tid 1356] [client ::1:62714] ModuleNotFoundError: No module named 'cv2'\r
+[Mon Jul 05 16:39:39.914961 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925] mod_wsgi (pid=10244): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:39:39.914961 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925] mod_wsgi (pid=10244): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:39:39.915959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925] Traceback (most recent call last):\r
+[Mon Jul 05 16:39:39.915959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:39:39.915959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925]     from views import app as application\r
+[Mon Jul 05 16:39:39.915959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:39:39.916959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925]     import data\r
+[Mon Jul 05 16:39:39.916959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:39:39.916959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925]     import cv2\r
+[Mon Jul 05 16:39:39.916959 2021] [wsgi:error] [pid 10244:tid 1356] [client ::1:62925] ModuleNotFoundError: No module named 'cv2'\r
+[Mon Jul 05 16:40:50.757356 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024] mod_wsgi (pid=16564): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:40:50.757356 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024] mod_wsgi (pid=16564): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024] Traceback (most recent call last):\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024]     from views import app as application\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024]     import data\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024]     import cv2\r
+[Mon Jul 05 16:40:50.758353 2021] [wsgi:error] [pid 16564:tid 1360] [client ::1:63024] ModuleNotFoundError: No module named 'cv2'\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025] mod_wsgi (pid=16564): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025] mod_wsgi (pid=16564): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025] Traceback (most recent call last):\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025]     from views import app as application\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025]     import data\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025]     import cv2\r
+[Mon Jul 05 16:40:52.769567 2021] [wsgi:error] [pid 16564:tid 1352] [client ::1:63025] ModuleNotFoundError: No module named 'cv2'\r
+[Mon Jul 05 16:45:45.822767 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553] mod_wsgi (pid=10104): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:45:45.822767 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553] mod_wsgi (pid=10104): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553] Traceback (most recent call last):\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]     from views import app as application\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]     import data\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]     import cv2\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553]     from .cv2 import *\r
+[Mon Jul 05 16:45:45.823766 2021] [wsgi:error] [pid 10104:tid 1360] [client ::1:63553] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 19:35:39.042870 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028] mod_wsgi (pid=7052): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:35:39.042870 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028] mod_wsgi (pid=7052): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028] Traceback (most recent call last):\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]     from views import app as application\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]     import data\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]     import cv2\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028]     from .cv2 import *\r
+[Mon Jul 05 19:35:39.154757 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50028] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128] mod_wsgi (pid=7052): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128] mod_wsgi (pid=7052): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:35:41.000096 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50128] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198] mod_wsgi (pid=7052): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198] mod_wsgi (pid=7052): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198] Traceback (most recent call last):\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]     from views import app as application\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]     import data\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]     import cv2\r
+[Mon Jul 05 19:42:21.080296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 19:42:21.081296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198]     from .cv2 import *\r
+[Mon Jul 05 19:42:21.081296 2021] [wsgi:error] [pid 7052:tid 1432] [client ::1:50198] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199] mod_wsgi (pid=7052): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199] mod_wsgi (pid=7052): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:42:21.179420 2021] [wsgi:error] [pid 7052:tid 1416] [client ::1:50199] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.145815 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223] mod_wsgi (pid=10496): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:43:53.145815 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223] mod_wsgi (pid=10496): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223] Traceback (most recent call last):\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]     from views import app as application\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]     import data\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]     import cv2\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223]     from .cv2 import *\r
+[Mon Jul 05 19:43:53.146810 2021] [wsgi:error] [pid 10496:tid 1424] [client ::1:50223] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 19:43:53.155787 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224] mod_wsgi (pid=10496): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.155787 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224] mod_wsgi (pid=10496): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.155787 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:43:53.365731 2021] [wsgi:error] [pid 10496:tid 1384] [client ::1:50224] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.132326 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231] mod_wsgi (pid=12740): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:44:49.132326 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231] mod_wsgi (pid=12740): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231] Traceback (most recent call last):\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]     from views import app as application\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]     import data\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]     import cv2\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231]     from .cv2 import *\r
+[Mon Jul 05 19:44:49.133324 2021] [wsgi:error] [pid 12740:tid 1368] [client ::1:50231] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 19:44:49.142779 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232] mod_wsgi (pid=12740): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.142779 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232] mod_wsgi (pid=12740): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.142779 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.549656 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.549656 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.549656 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.549656 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.549656 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.549656 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.550562 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]   File "C:\\Program Files\\Python39\\lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.550562 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 19:44:49.550562 2021] [wsgi:error] [pid 12740:tid 1356] [client ::1:50232] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.333884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496] mod_wsgi (pid=14080): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496] mod_wsgi (pid=14080): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496] Traceback (most recent call last):\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496]     from views import app as application\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496]     import data\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496]     import cv2\r
+[Mon Jul 05 20:04:22.334884 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50496] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r
+[Mon Jul 05 20:04:22.343861 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497] mod_wsgi (pid=14080): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.343861 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497] mod_wsgi (pid=14080): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:22.344859 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50497] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500] mod_wsgi (pid=14080): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500] mod_wsgi (pid=14080): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500] Traceback (most recent call last):\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500]     from views import app as application\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500]     import data\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500]     import cv2\r
+[Mon Jul 05 20:04:25.524181 2021] [wsgi:error] [pid 14080:tid 1424] [client ::1:50500] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501] mod_wsgi (pid=14080): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501] mod_wsgi (pid=14080): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:04:25.534154 2021] [wsgi:error] [pid 14080:tid 1436] [client ::1:50501] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.377408 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535] mod_wsgi (pid=4100): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:11:56.377408 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535] mod_wsgi (pid=4100): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535] Traceback (most recent call last):\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535]     from views import app as application\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535]     import data\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535]     import cv2\r
+[Mon Jul 05 20:11:56.378405 2021] [wsgi:error] [pid 4100:tid 1356] [client ::1:50535] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536] mod_wsgi (pid=4100): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536] mod_wsgi (pid=4100): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:11:56.439160 2021] [wsgi:error] [pid 4100:tid 1348] [client ::1:50536] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.617136 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549] mod_wsgi (pid=7568): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:13:53.617136 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549] mod_wsgi (pid=7568): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549] Traceback (most recent call last):\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549]     from views import app as application\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549]     import data\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549]     import cv2\r
+[Mon Jul 05 20:13:53.618133 2021] [wsgi:error] [pid 7568:tid 1356] [client ::1:50549] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550] mod_wsgi (pid=7568): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550] mod_wsgi (pid=7568): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:13:53.628106 2021] [wsgi:error] [pid 7568:tid 1352] [client ::1:50550] ImportError: DLL load failed while importing cv2: The specified module could not be found.\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.943636 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645] mod_wsgi (pid=13456): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:24:21.943636 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645] mod_wsgi (pid=13456): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645] Traceback (most recent call last):\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]     from views import app as application\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]     import data\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]     import cv2\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645]     from .cv2 import *\r
+[Mon Jul 05 20:24:21.966580 2021] [wsgi:error] [pid 13456:tid 1400] [client ::1:50645] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646] mod_wsgi (pid=13456): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646] mod_wsgi (pid=13456): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:24:21.981568 2021] [wsgi:error] [pid 13456:tid 1384] [client ::1:50646] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.768200 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715] mod_wsgi (pid=7628): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:28:36.768200 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715] mod_wsgi (pid=7628): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715] Traceback (most recent call last):\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]     from views import app as application\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]     import data\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]     import cv2\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715]     from .cv2 import *\r
+[Mon Jul 05 20:28:36.769198 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50715] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 20:28:36.778163 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716] mod_wsgi (pid=7628): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.778163 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716] mod_wsgi (pid=7628): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:36.779161 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50716] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718] mod_wsgi (pid=7628): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718] mod_wsgi (pid=7628): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718] Traceback (most recent call last):\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]     from views import app as application\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]     import data\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]     import cv2\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718]     from .cv2 import *\r
+[Mon Jul 05 20:28:38.950638 2021] [wsgi:error] [pid 7628:tid 1432] [client ::1:50718] ImportError: numpy.core.multiarray failed to import\r
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719] mod_wsgi (pid=7628): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719] mod_wsgi (pid=7628): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]   File "C:\\Users/pradi/nps2021/app\\data.py", line 1, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]     import cv2\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\cv2\\__init__.py", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719]     from .cv2 import *\r, referer: http://localhost:5000/search
+[Mon Jul 05 20:28:38.960641 2021] [wsgi:error] [pid 7628:tid 1436] [client ::1:50719] ImportError: numpy.core.multiarray failed to import\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:57.969582 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769] mod_wsgi (pid=10596): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:28:57.969582 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769] mod_wsgi (pid=10596): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769] Traceback (most recent call last):\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769]     from views import app as application\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769]     import data\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769]   File "C:\\Users/pradi/nps2021/app\\data.py", line 3, in <module>\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769]     import pytesseract\r
+[Mon Jul 05 21:28:57.970579 2021] [wsgi:error] [pid 10596:tid 1436] [client ::1:51769] ModuleNotFoundError: No module named 'pytesseract'\r
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770] mod_wsgi (pid=10596): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770] mod_wsgi (pid=10596): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770]   File "C:\\Users/pradi/nps2021/app\\data.py", line 3, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770]     import pytesseract\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:28:58.003492 2021] [wsgi:error] [pid 10596:tid 1432] [client ::1:51770] ModuleNotFoundError: No module named 'pytesseract'\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.598062 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:46:53.598062 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038] Traceback (most recent call last):\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038]     from views import app as application\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038]     import data\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038]     from pdf2image import convert_from_path\r
+[Mon Jul 05 21:46:53.599067 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52038] ModuleNotFoundError: No module named 'pdf2image'\r
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.638951 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.639949 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041]     from pdf2image import convert_from_path\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:53.639949 2021] [wsgi:error] [pid 8152:tid 1356] [client 127.0.0.1:52041] ModuleNotFoundError: No module named 'pdf2image'\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044] Traceback (most recent call last):\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044]     from views import app as application\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044]     import data\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044]     from pdf2image import convert_from_path\r
+[Mon Jul 05 21:46:54.366331 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52044] ModuleNotFoundError: No module named 'pdf2image'\r
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045]     from views import app as application\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045]     import data\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045]     from pdf2image import convert_from_path\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:54.377303 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52045] ModuleNotFoundError: No module named 'pdf2image'\r, referer: http://localhost:5000/search
+[Mon Jul 05 21:46:58.583456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046] Traceback (most recent call last):\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046]     from views import app as application\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046]     import data\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046]     from pdf2image import convert_from_path\r
+[Mon Jul 05 21:46:58.584456 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52046] ModuleNotFoundError: No module named 'pdf2image'\r
+[Mon Jul 05 21:46:59.086770 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.086770 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047]     from views import app as application\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047]     import data\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047]     from pdf2image import convert_from_path\r, referer: http://localhost:5000/
+[Mon Jul 05 21:46:59.087766 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52047] ModuleNotFoundError: No module named 'pdf2image'\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.699825 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:47:00.699825 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048] Traceback (most recent call last):\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048]     from views import app as application\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048]     import data\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048]     from pdf2image import convert_from_path\r
+[Mon Jul 05 21:47:00.700822 2021] [wsgi:error] [pid 8152:tid 1360] [client ::1:52048] ModuleNotFoundError: No module named 'pdf2image'\r
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049] mod_wsgi (pid=8152): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049] mod_wsgi (pid=8152): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049]     from views import app as application\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049]     import data\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049]   File "C:\\Users/pradi/nps2021/app\\data.py", line 16, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049]     from pdf2image import convert_from_path\r, referer: http://localhost:5000/
+[Mon Jul 05 21:47:00.767964 2021] [wsgi:error] [pid 8152:tid 1356] [client ::1:52049] ModuleNotFoundError: No module named 'pdf2image'\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.096927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180] mod_wsgi (pid=10836): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:48:18.096927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180] mod_wsgi (pid=10836): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180] Traceback (most recent call last):\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180]     from views import app as application\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180]     import data\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180]   File "C:\\Users/pradi/nps2021/app\\data.py", line 17, in <module>\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180]     from IPython.display import Image\r
+[Mon Jul 05 21:48:18.097927 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52180] ModuleNotFoundError: No module named 'IPython'\r
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181] mod_wsgi (pid=10836): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181] mod_wsgi (pid=10836): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181]     from views import app as application\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181]     import data\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181]   File "C:\\Users/pradi/nps2021/app\\data.py", line 17, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181]     from IPython.display import Image\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:18.108863 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52181] ModuleNotFoundError: No module named 'IPython'\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184] mod_wsgi (pid=10836): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184] mod_wsgi (pid=10836): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184] Traceback (most recent call last):\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184]     from views import app as application\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184]     import data\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184]   File "C:\\Users/pradi/nps2021/app\\data.py", line 17, in <module>\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184]     from IPython.display import Image\r
+[Mon Jul 05 21:48:22.232591 2021] [wsgi:error] [pid 10836:tid 1348] [client ::1:52184] ModuleNotFoundError: No module named 'IPython'\r
+[Mon Jul 05 21:48:22.246587 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185] mod_wsgi (pid=10836): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.246587 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185] mod_wsgi (pid=10836): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'., referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185]     from views import app as application\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185]   File "C:\\Users/pradi/nps2021/app\\views.py", line 2, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185]     import data\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185]   File "C:\\Users/pradi/nps2021/app\\data.py", line 17, in <module>\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185]     from IPython.display import Image\r, referer: http://localhost:5000/
+[Mon Jul 05 21:48:22.247550 2021] [wsgi:error] [pid 10836:tid 1356] [client ::1:52185] ModuleNotFoundError: No module named 'IPython'\r, referer: http://localhost:5000/
+[Mon Jul 05 21:50:19.297084 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218] There was a problem with Oracle ORA-12541: TNS:no listener\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218] [2021-07-05 21:50:19,297] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "C:\\Users/pradi/nps2021/app\\views.py", line 25, in upload_files\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     data.loadInFile(new_file)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "C:\\Users/pradi/nps2021/app\\data.py", line 290, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     loadFileName(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]   File "C:\\Users/pradi/nps2021/app\\data.py", line 205, in loadFileName\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218]     if cursor:\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:50:19.322051 2021] [wsgi:error] [pid 16528:tid 1356] [client ::1:52218] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] [2021-07-05 21:52:42,246] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\datastructures.py", line 3034, in __getattr__\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     return getattr(self.stream, name)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] AttributeError: 'SpooledTemporaryFile' object has no attribute 'rfind'\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] \r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] During handling of the above exception, another exception occurred:\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] \r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "C:\\Users/pradi/nps2021/app\\views.py", line 25, in upload_files\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     data.loadInFile(new_file)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "C:\\Users/pradi/nps2021/app\\data.py", line 290, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     loadFileName(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "C:\\Users/pradi/nps2021/app\\data.py", line 181, in loadFileName\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     filename = getFileName(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "C:\\Users/pradi/nps2021/app\\data.py", line 79, in getFileName\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     filename = filepath[filepath.rfind(identifier)+1:]\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\datastructures.py", line 3040, in __getattr__\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     return getattr(self.stream._file, name)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]   File "C:\\Program Files\\Python39\\Lib\\tempfile.py", line 469, in __getattr__\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291]     a = getattr(file, name)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:52:42.305472 2021] [wsgi:error] [pid 16528:tid 1344] [client ::1:52291] AttributeError: '_io.BufferedRandom' object has no attribute 'rfind'\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.307463 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319] There was a problem with Oracle ORA-12514: TNS:listener does not currently know of service requested in connect descriptor\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.319429 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319] [2021-07-05 21:55:36,307] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.319429 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.319429 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.319429 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.319429 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.319429 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "C:\\Users/pradi/nps2021/app\\views.py", line 25, in upload_files\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     data.loadInFile(new_file)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "C:\\Users/pradi/nps2021/app\\data.py", line 291, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     loadFileName(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]   File "C:\\Users/pradi/nps2021/app\\data.py", line 206, in loadFileName\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319]     if cursor:\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:36.320427 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52319] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.590547 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333] There was a problem with Oracle ORA-12514: TNS:listener does not currently know of service requested in connect descriptor\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333] [2021-07-05 21:55:51,591] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "C:\\Users/pradi/nps2021/app\\views.py", line 25, in upload_files\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     data.loadInFile(new_file)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "C:\\Users/pradi/nps2021/app\\data.py", line 291, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     loadFileName(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]   File "C:\\Users/pradi/nps2021/app\\data.py", line 206, in loadFileName\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333]     if cursor:\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:55:51.591542 2021] [wsgi:error] [pid 15140:tid 1360] [client ::1:52333] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.306726 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358] There was a problem with Oracle Python value of type FileStorage not supported.\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358] [2021-07-05 21:56:50,411] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "C:\\Users/pradi/nps2021/app\\views.py", line 25, in upload_files\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     data.loadInFile(new_file)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "C:\\Users/pradi/nps2021/app\\data.py", line 292, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     loadFileData(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "C:\\Users/pradi/nps2021/app\\data.py", line 241, in loadFileData\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     filedata = convertToBinaryData(filepath)\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]   File "C:\\Users/pradi/nps2021/app\\data.py", line 148, in convertToBinaryData\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358]     with open(filename, 'rb') as file:\r, referer: http://localhost:5000/upload_files
+[Mon Jul 05 21:56:50.412554 2021] [wsgi:error] [pid 15140:tid 1336] [client ::1:52358] TypeError: expected str, bytes or os.PathLike object, not FileStorage\r, referer: http://localhost:5000/upload_files
