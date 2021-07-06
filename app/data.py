@@ -178,8 +178,8 @@ def loadFileName(filepath):
         con = cx_Oracle.connect('YOSHI/nps2021@localhost')
         cursor = con.cursor()
         
-        #filename = getFileName(filepath)
-        filename = filepath.filename
+        filename = getFileName(filepath)
+        
         
         cursor.execute("select max(fileID) from FILENAMES") 
         
