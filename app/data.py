@@ -75,7 +75,7 @@ def detectFileType(filename):
     return extension
 
 def getFileName(filepath):
-    identifier = "\\"
+    identifier = "/"
     filename = filepath[filepath.rfind(identifier)+1:]
     return filename
 
