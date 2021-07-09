@@ -23,7 +23,8 @@ def upload_files():
        new_file.save("/Users/pradi/documents/nps2021-uploads/" + new_file.filename)
        data.loadInFile("/Users/pradi/documents/nps2021-uploads/" + new_file.filename)
        
-       return redirect(request.url)
+       return render_template('upload_files_success.html')
+
    return render_template('upload_files.html')
 
 if __name__ == '__main__':

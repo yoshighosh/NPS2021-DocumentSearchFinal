@@ -1440,3 +1440,34 @@
 [Thu Jul 08 15:16:37.056141 2021] [wsgi:error] [pid 9080:tid 1336] [client ::1:51000]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\datastructures.py", line 3013, in save\r, referer: http://localhost:5000/upload_files
 [Thu Jul 08 15:16:37.056141 2021] [wsgi:error] [pid 9080:tid 1336] [client ::1:51000]     dst = open(dst, "wb")\r, referer: http://localhost:5000/upload_files
 [Thu Jul 08 15:16:37.056141 2021] [wsgi:error] [pid 9080:tid 1336] [client ::1:51000] PermissionError: [Errno 13] Permission denied: '/Users/pradi/documents/nps2021-uploads/'\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:26:47.489451 2021] [wsgi:error] [pid 18180:tid 1340] [client ::1:51108] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:26:47.650713 2021] [wsgi:error] [pid 18180:tid 1340] [client ::1:51108] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:28:18.762380 2021] [wsgi:error] [pid 18180:tid 1340] [client ::1:51108] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:28:18.763582 2021] [wsgi:error] [pid 18180:tid 1340] [client ::1:51108] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:41:53.441557 2021] [wsgi:error] [pid 20780:tid 1428] [client ::1:51193] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:41:53.866849 2021] [wsgi:error] [pid 20780:tid 1428] [client ::1:51193] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:41:55.307894 2021] [wsgi:error] [pid 20780:tid 1428] [client ::1:51193] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:41:55.309892 2021] [wsgi:error] [pid 20780:tid 1428] [client ::1:51193] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:45:49.516241 2021] [wsgi:error] [pid 19156:tid 1372] [client ::1:51233] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:45:49.975749 2021] [wsgi:error] [pid 19156:tid 1372] [client ::1:51233] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:45:51.777457 2021] [wsgi:error] [pid 19156:tid 1372] [client ::1:51233] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:45:51.778457 2021] [wsgi:error] [pid 19156:tid 1372] [client ::1:51233] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:34.590665 2021] [wsgi:error] [pid 25400:tid 1352] [client ::1:51286] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:34.757229 2021] [wsgi:error] [pid 25400:tid 1352] [client ::1:51286] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:36.130912 2021] [wsgi:error] [pid 25400:tid 1352] [client ::1:51286] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:36.131862 2021] [wsgi:error] [pid 25400:tid 1352] [client ::1:51286] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299] [2021-07-08 18:47:53,854] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.855732 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "C:\\Users/pradi/nps2021/app\\views.py", line 23, in upload_files\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     new_file.save("/Users/pradi/documents/nps2021-uploads/" + new_file.filename)\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\datastructures.py", line 3013, in save\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     dst = open(dst, "wb")\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299] PermissionError: [Errno 13] Permission denied: '/Users/pradi/documents/nps2021-uploads/'\r, referer: http://localhost:5000/upload_files
