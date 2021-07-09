@@ -1471,3 +1471,7 @@
 [Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\datastructures.py", line 3013, in save\r, referer: http://localhost:5000/upload_files
 [Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299]     dst = open(dst, "wb")\r, referer: http://localhost:5000/upload_files
 [Thu Jul 08 18:47:53.856728 2021] [wsgi:error] [pid 19588:tid 1352] [client ::1:51299] PermissionError: [Errno 13] Permission denied: '/Users/pradi/documents/nps2021-uploads/'\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:48:33.801772 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:48:35.030171 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:48:36.717746 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 08 18:48:36.718750 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files

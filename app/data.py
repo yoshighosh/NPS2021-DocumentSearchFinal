@@ -293,4 +293,178 @@ def loadInFile(filepath):
     loadInText(filepath)
     print("Successfully loaded in file into database")
 
+def downloadFile(file_ID):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        file_name = ""
+        
+        sql = ('select * from FILENAMES')
+        
+        cursor.execute(sql)
+        
+        for fileID, filepath, filename in cursor:
+            if fileID == file_ID:
+                file_name = "\\" + filename
+                
+        sql = ('select * from FILES')
+        
+        cursor.execute(sql)
+        
+        for fileID, filedata in cursor:
+            if fileID == file_ID:
+                filepath = r"C:\Users\pradi\Documents\NPS2021\files" + file_name
+                print("Opening " + str(filepath) + "...")
+                file_data = filedata.read()
+                write_file(file_data, filepath)
+                os.system("start "+filepath)
+                print("Opened file!")
+    
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def filenameFromID(file_ID):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        file_name = ""
+        
+        sql = ('select * from FILENAMES')
+        
+        cursor.execute(sql)
+        
+        for fileID, filepath, filename in cursor:
+            if fileID == file_ID:
+                file_name = filename
+                return file_name
+            
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def vectorizeData(text):
+    vectorizer = TfidfVectorizer()
+    vectors = vectorizer.fit_transform([text[file] for file in text])
+    dense = vectors.todense()
+    
+    cosine_sim = cosine_similarity(dense, dense)
+    
+    return cosine_sim
+
+def max_score(score_list):
+    max_score = 0
+    index = 0
+    max_index = 0
+    for score in score_list:
+        if score >= max_score:
+            max_score = score
+            max_index = index
+        index += 1
+  
+    return max_index, max_score
+
+def matchQuery(query):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        sql = ('select * from TEXT')
+        
+        cursor.execute(sql)
+        
+        text = {}
+        
+        for fileID, fileText in cursor:
+            text[fileID] = binaryToString(fileText)
+                
+        text["query"] = preprocessing(query)
+        
+        similarityMatrix = vectorizeData(text)
+        
+        matrix_length = len(similarityMatrix)
+        
+        query_scores = similarityMatrix[matrix_length-1]
+        query_scores = query_scores[0:matrix_length-1]
+        
+        topScores = {}
+        
+        max_index1, topScores[max_index1] = max_score(query_scores)
+        query_scores[max_index1] = -1
+        max_index2, topScores[max_index2] = max_score(query_scores)
+        query_scores[max_index2] = -1
+        max_index3, topScores[max_index3] = max_score(query_scores)
+        query_scores[max_index3] = -1
+        
+        return topScores
+        
+        
+    
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def openDocument(query):
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        cursor = con.cursor()
+        
+        sql = ('select * from FILENAMES')
+        
+        cursor.execute(sql)
+        
+        fileID = 0
+        
+        for fileID, filepath, filename in cursor:
+            if filename == query:
+                downloadFile(fileID)
+        
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
+
+def getQuery(query):
+    
+    topScores = matchQuery(query)
+
+    fileNames = {}
+    
+    for fileID in topScores:
+        filename = filenameFromID(fileID+1)
+        fileNames[filename] = topScores[fileID]
+    
+    return filesNames
+
+
+
+
+
+
+
 
