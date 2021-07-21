@@ -70,45 +70,21 @@ function toggleTableVisibility() {
     }
 }
 
-// function changeFilter(checkboxElem) {
-//     changeVisibility(checkboxElem.id, checkboxElem.checked)
-//     if(checkboxElem.id=="Match Feeder Bot" && !checkboxElem.checked){
-//         match_feeder = false;
-//     }
-//     if(checkboxElem.id=="Match Stacking Bot" && !checkboxElem.checked){
-//         match_stacker = false;
-//     }
-//     if(checkboxElem.id=="Match Speedy" && !checkboxElem.checked){
-//         match_speedy = false;
-//     }
-//     if(checkboxElem.id=="Match Tall Lift" && !checkboxElem.checked){
-//         match_tall_lift = false;
-//     }
-//     if(checkboxElem.id=="Match Fits Under Bridge" && !checkboxElem.checked){
-//         match_under_bridge = false;
-//     }
-//     if(checkboxElem.id=="Match Doesn't Fit Under Bridge" && !checkboxElem.checked){
-//         match_not_under_bridge = false;
-//     }
-//     if(checkboxElem.id=="Match Toppled Own Tower" && !checkboxElem.checked){
-//         match_knocked_tower = false;
-//     }
-//     if(checkboxElem.id=="Match DC :(" && !checkboxElem.checked){
-//         match_DC = false;
-//     }
-//     if(checkboxElem.id=="Match Dangerous Driving" && !checkboxElem.checked){
-//         match_dangerous_driving = false;
-//     }
-//     if(checkboxElem.id=="Match Steps Over Bridge" && !checkboxElem.checked){
-//         match_steps_over_bridge = false;
-//     }
-//     if(checkboxElem.id=="Match GP :)" && !checkboxElem.checked){
-//         match_very_gp = false;
-//     }
-//     if(checkboxElem.id=="Match Not GP :(" && !checkboxElem.checked){
-//         match_not_gp = false;
-//     }
-// }
+function changeFilter(checkboxElem) {
+    changeVisibility(checkboxElem.id, checkboxElem.checked)
+    if(checkboxElem.id=="Image Files" && !checkboxElem.checked){
+        filter_dict["image"] = false;
+    }
+    if(checkboxElem.id=="PDF Files" && !checkboxElem.checked){
+        filter_dict["pdf"] = false;
+    }
+    if(checkboxElem.id=="Word Documents" && !checkboxElem.checked){
+        filter_dict["docx"] = false;
+    }
+    if(checkboxElem.id=="PowerPoint" && !checkboxElem.checked){
+        filter_dict["pptx"] = false;
+    }
+}
 
 function changeVisibility(columnName, isVisible) {
     var filterElems = document.getElementsByClassName('filter-' + columnName)
