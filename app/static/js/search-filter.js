@@ -1,4 +1,4 @@
-
+var filter_dict = {"image": true, "pdf": true, "docx": true, "pptx": true}
 
 
 $(document).ready(function () {
