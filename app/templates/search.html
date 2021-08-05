@@ -32,10 +32,10 @@
 				<header>
 					<h1>Search Documents</h1>
 				</header>
-				<section>
+				<!-- <section>
 					<h2 id="all-filters-toggle"
 						style="-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;-o-user-select: none;user-select: none;cursor: default;">
-						&#x25B2; All Filters &#x25B2;</h2>
+						&#x25B2; Filter by file type &#x25B2;</h2>
 					<div id="all-filters" style="display: none">
 						<div class="row gtr-uniform">
 							<div class="col-3 col-4-large col-6-small">
@@ -60,22 +60,26 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> -->
 				<header>
 					<h2></h2>
 				</header>
-				<form action="javascript:search()">
-					<div class="row gtr-uniform">
+				<form class="row gtr-uniform" method="POST">
 						<div class="col-8 col-9-medium">
-							<input id="search" name="search" placeholder="Enter keywords or document name..." type="text"
-								onkeyup="searchChange()" autocomplete="off">
+							<input id="query" name="query" placeholder="Enter keywords or document name..." type="text">
 						</div>
 						<div class="col-4 col-3-medium">
 							<button type="submit" class="primary">></button>
 						</div>
-					</div>
 				</form>
-				<div id="results"></div>
+				<div>
+					{% for item in data %}
+						<tr>
+							<a href="{{ url_for('download_file', filename=item[0:]) }}"> {{item}} </a>
+							</br>
+						</tr>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 

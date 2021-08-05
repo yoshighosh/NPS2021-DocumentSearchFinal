@@ -1,6 +1,8 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, send_file, request, redirect, send_from_directory
 import data
 import os
+
+
 
 app = Flask(__name__)
 
@@ -11,9 +13,24 @@ app.config["FILE_UPLOADS"] = "/Users/pradi/nps2021/uploads"
 def home():
    return render_template('home.html')
 
-@app.route('/search')
+@app.route('/search', methods=["GET", "POST"])
 def search():
+   if request.method == "POST":
+        query = request.form['query']
+        topScores = data.matchQuery(query)
+        fileNames = {}
+        for fileID in topScores:
+           filename = data.filenameFromID(fileID+1)
+           fileNames[filename] = topScores[fileID]
+        return render_template('search.html', data=fileNames)
    return render_template('search.html')
+
+@app.route('/search/<path:filename>', methods=["GET", "POST"])
+def download_file(filename):
+   #fileID = data.getFileID(filename)
+   #full_path = data.downloadFile(fileID)
+   return send_from_directory("/Users/pradi/Documents/nps2021-uploads", filename, as_attachment=True)
+   
 
 @app.route('/upload_files', methods=["GET", "POST"])
 def upload_files():

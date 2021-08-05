@@ -34,10 +34,10 @@ $(document).ready(function () {
 function toggleAllFilterVisibility() {
     if ($('#all-filters').css("display") == "none") {
         $('#all-filters').css("display", "")
-        $('#all-filters-toggle').text("\u25BC All Filters \u25BC")
+        $('#all-filters-toggle').text("\u25BC Filter by file type \u25BC")
     } else {
         $('#all-filters').css("display", "none")
-        $('#all-filters-toggle').text("\u25B2 All Filters \u25B2")
+        $('#all-filters-toggle').text("\u25B2 Filter by file type \u25B2")
     }
 }
 

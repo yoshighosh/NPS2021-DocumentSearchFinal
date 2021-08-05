@@ -175,7 +175,7 @@ def getText(filepath):
     
 def loadFileName(filepath):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         filename = getFileName(filepath)
@@ -210,7 +210,7 @@ def loadFileName(filepath):
 
 def getFileID(file_path):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         sql = ('select * from FILENAMES')
@@ -233,7 +233,7 @@ def getFileID(file_path):
 
 def loadFileData(filepath):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         fileID = getFileID(filepath)
@@ -260,7 +260,7 @@ def loadFileData(filepath):
 
 def loadInText(filepath):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         fileID = getFileID(filepath)
@@ -295,7 +295,7 @@ def loadInFile(filepath):
 
 def downloadFile(file_ID):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         file_name = ""
@@ -314,12 +314,14 @@ def downloadFile(file_ID):
         
         for fileID, filedata in cursor:
             if fileID == file_ID:
-                filepath = r"C:\Users\pradi\Documents\NPS2021\files" + file_name
-                print("Opening " + str(filepath) + "...")
-                file_data = filedata.read()
-                write_file(file_data, filepath)
-                os.system("start "+filepath)
+                filepath = r"C:\Users\pradi\Documents\nps2021-uploads"
+                #print("Opening " + str(filepath) + "...")
+                #file_data = filedata.read()
+                #write_file(file_data, filepath)
+                #os.system("start "+filepath)
                 print("Opened file!")
+                return filepath
+
     
     except cx_Oracle.DatabaseError as e:
         print("There was a problem with Oracle", e)
@@ -333,7 +335,7 @@ def downloadFile(file_ID):
 
 def filenameFromID(file_ID):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         file_name = ""
@@ -380,7 +382,7 @@ def max_score(score_list):
 
 def matchQuery(query):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         sql = ('select * from TEXT')
@@ -426,7 +428,7 @@ def matchQuery(query):
 
 def openDocument(query):
     try: 
-        con = cx_Oracle.connect('YOSHI/nps2021@localhost')
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
         cursor = con.cursor()
         
         sql = ('select * from FILENAMES')
@@ -459,7 +461,7 @@ def getQuery(query):
         filename = filenameFromID(fileID+1)
         fileNames[filename] = topScores[fileID]
     
-    return filesNames
+    return fileNames
 
 
 

@@ -1475,3 +1475,464 @@
 [Thu Jul 08 18:48:35.030171 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
 [Thu Jul 08 18:48:36.717746 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
 [Thu Jul 08 18:48:36.718750 2021] [wsgi:error] [pid 24588:tid 1416] [client ::1:51328] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:39:14.344780 2021] [wsgi:error] [pid 26004:tid 1388] [client ::1:52835] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:39:14.787736 2021] [wsgi:error] [pid 26004:tid 1388] [client ::1:52835] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:39:34.633214 2021] [wsgi:error] [pid 26004:tid 1388] [client ::1:52835] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:39:34.635089 2021] [wsgi:error] [pid 26004:tid 1388] [client ::1:52835] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947] [2021-07-20 11:45:13,230] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "C:\\Users/pradi/nps2021/app\\views.py", line 18, in search\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "C:\\Users/pradi/nps2021/app\\data.py", line 395, in matchQuery\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     text["query"] = preprocessing(query)\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "C:\\Users/pradi/nps2021/app\\data.py", line 90, in preprocessing\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     word = lemmatizer.lemmatize(word)\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\nltk\\stem\\wordnet.py", line 38, in lemmatize\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     lemmas = wordnet._morphy(word, pos)\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\nltk\\corpus\\util.py", line 120, in __getattr__\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     self.__load()\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\nltk\\corpus\\util.py", line 94, in __load\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947]     args, kwargs = self.__args, self.__kwargs\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:45:13.330213 2021] [wsgi:error] [pid 22732:tid 1384] [client ::1:52947] AttributeError: 'WordNetCorpusReader' object has no attribute '_LazyCorpusLoader__args'\r, referer: http://localhost:5000/search
+[Tue Jul 20 11:46:23.791613 2021] [wsgi:error] [pid 22908:tid 1376] [client ::1:53014] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:46:24.144752 2021] [wsgi:error] [pid 22908:tid 1376] [client ::1:53014] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:47:56.993320 2021] [wsgi:error] [pid 22908:tid 1376] [client ::1:53014] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:47:56.994281 2021] [wsgi:error] [pid 22908:tid 1376] [client ::1:53014] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:48:21.889178 2021] [wsgi:error] [pid 22908:tid 1380] [client ::1:53041] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:48:22.080208 2021] [wsgi:error] [pid 22908:tid 1380] [client ::1:53041] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:49:40.745877 2021] [wsgi:error] [pid 22908:tid 1380] [client ::1:53041] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 11:49:40.746874 2021] [wsgi:error] [pid 22908:tid 1380] [client ::1:53041] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532] [2021-07-20 12:11:48,067] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.193261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "C:\\Users/pradi/nps2021/app\\views.py", line 23, in search\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     return render_template('search.html', data=fileNames)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     return _render(\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     rv = template.render(context)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     self.environment.handle_exception()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in top-level template code\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     <a href="{{ url_for('.download_file') }}"> {{item[0:]}} </a>\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 338, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     return appctx.app.handle_url_build_error(error, endpoint, values)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 325, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     rv = url_adapter.build(\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\routing.py", line 2305, in build\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532]     raise BuildError(endpoint, values, method, self)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:11:48.194261 2021] [wsgi:error] [pid 25340:tid 1340] [client ::1:54532] werkzeug.routing.BuildError: Could not build url for endpoint 'download_file'. Did you mean 'upload_files' instead?\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886] [2021-07-20 12:28:07,416] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "C:\\Users/pradi/nps2021/app\\views.py", line 23, in search\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     return render_template('search.html', data=fileNames)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     return _render(\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     rv = template.render(context)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     self.environment.handle_exception()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in top-level template code\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     <a href="{{ url_for('.download_file') }}"> {{item[0:]}} </a>\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 338, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     return appctx.app.handle_url_build_error(error, endpoint, values)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 325, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     rv = url_adapter.build(\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\routing.py", line 2305, in build\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886]     raise BuildError(endpoint, values, method, self)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:28:07.419762 2021] [wsgi:error] [pid 24620:tid 1360] [client ::1:54886] werkzeug.routing.BuildError: Could not build url for endpoint 'download_file'. Did you forget to specify values ['filename']?\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:36:48.471145 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942] [2021-07-20 12:36:48,429] ERROR in app: Exception on /search [GET]\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     rv = self.dispatch_request()\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "C:\\Users/pradi/nps2021/app\\views.py", line 24, in search\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     return render_template('search.html')\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 148, in render_template\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     ctx.app.jinja_env.get_or_select_template(template_name_or_list),\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1068, in get_or_select_template\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     return self.get_template(template_name_or_list, parent, globals)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 997, in get_template\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     return self._load_template(name, globals)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 958, in _load_template\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     template = self.loader.load(self, name, self.make_globals(globals))\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\loaders.py", line 137, in load\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     code = environment.compile(source, name, filename)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 757, in compile\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     self.handle_exception(source=source_hint)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in template\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942]     {% path = "search" + str(item[0:])}\r, referer: http://localhost:5000/
+[Tue Jul 20 12:36:48.472105 2021] [wsgi:error] [pid 23576:tid 1324] [client ::1:54942] jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'path'. Jinja was looking for the following tags: 'endfor' or 'else'. The innermost block that needs to be closed is 'for'.\r, referer: http://localhost:5000/
+[Tue Jul 20 12:42:59.297591 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047] [2021-07-20 12:42:59,295] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "C:\\Users/pradi/nps2021/app\\views.py", line 23, in search\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     return render_template('search.html', data=fileNames)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     return _render(\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     rv = template.render(context)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     self.environment.handle_exception()\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in top-level template code\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     <a href="{{ url_for('.download_file') }}"> {{item[0:]}} </a>\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 338, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     return appctx.app.handle_url_build_error(error, endpoint, values)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 325, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     rv = url_adapter.build(\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\routing.py", line 2305, in build\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047]     raise BuildError(endpoint, values, method, self)\r, referer: http://localhost:5000/search
+[Tue Jul 20 12:42:59.298588 2021] [wsgi:error] [pid 23900:tid 1340] [client ::1:55047] werkzeug.routing.BuildError: Could not build url for endpoint 'download_file'. Did you mean 'upload_files' instead?\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820] [2021-07-20 18:36:40,497] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "C:\\Users/pradi/nps2021/app\\views.py", line 23, in search\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     return render_template('search.html', data=fileNames)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     return _render(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     rv = template.render(context)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     self.environment.handle_exception()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in top-level template code\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     <a href="{{ url_for('download', filename=item[0:]) }}"> {{item[0:]}} </a>\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 338, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     return appctx.app.handle_url_build_error(error, endpoint, values)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 325, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     rv = url_adapter.build(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\routing.py", line 2305, in build\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820]     raise BuildError(endpoint, values, method, self)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:36:40.500389 2021] [wsgi:error] [pid 18916:tid 1364] [client ::1:62820] werkzeug.routing.BuildError: Could not build url for endpoint 'download' with values ['filename']. Did you mean 'download_file' instead?\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862] [2021-07-20 18:41:52,916] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "C:\\Users/pradi/nps2021/app\\views.py", line 23, in search\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     return render_template('search.html', data=fileNames)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     return _render(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     rv = template.render(context)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     self.environment.handle_exception()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in top-level template code\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     <a href="{{ url_for('download', filename=item[0:]) }}"> {{item[0:]}} </a>\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 338, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     return appctx.app.handle_url_build_error(error, endpoint, values)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 325, in url_for\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     rv = url_adapter.build(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\routing.py", line 2305, in build\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862]     raise BuildError(endpoint, values, method, self)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:41:52.919060 2021] [wsgi:error] [pid 7048:tid 1392] [client ::1:62862] werkzeug.routing.BuildError: Could not build url for endpoint 'download' with values ['filename']. Did you mean 'download_file' instead?\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924] [2021-07-20 18:44:16,797] ERROR in app: Exception on /search/LeafDiskLabPoster(1).pptx [GET]\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     return send_from_directory(full_path, filename)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 700, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     return werkzeug.utils.send_from_directory(  # type: ignore\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 829, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924]     path = safe_join(os.fspath(directory), os.fspath(path))\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:44:16.826637 2021] [wsgi:error] [pid 24224:tid 1364] [client ::1:62924] TypeError: expected str, bytes or os.PathLike object, not NoneType\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951] [2021-07-20 18:46:00,567] ERROR in app: Exception on /search/LeafDiskLabPoster(1).pptx [GET]\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     return send_file(full_path, as_attachment=True)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 612, in send_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     return werkzeug.utils.send_file(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 708, in send_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951]     raise TypeError(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:46:00.568709 2021] [wsgi:error] [pid 13732:tid 1344] [client ::1:62951] TypeError: Unable to detect the MIME type because a file name is not available. Either set 'download_name', pass a path instead of a file, or set 'mimetype'.\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.198346 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054] [2021-07-20 18:51:45,190] ERROR in app: Exception on /search/LeafDiskLabPoster(1).pptx [GET]\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     return send_file(full_path, as_attachment=True)\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 612, in send_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     return werkzeug.utils.send_file(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 708, in send_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054]     raise TypeError(\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:51:45.199334 2021] [wsgi:error] [pid 14740:tid 1328] [client ::1:63054] TypeError: Unable to detect the MIME type because a file name is not available. Either set 'download_name', pass a path instead of a file, or set 'mimetype'.\r, referer: http://localhost:5000/search
+[Tue Jul 20 18:53:09.564997 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067] [2021-07-20 18:53:09,563] ERROR in app: Exception on /search/LeafDiskLabPoster(1).pptx [GET]\r
+[Tue Jul 20 18:53:09.564997 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067] Traceback (most recent call last):\r
+[Tue Jul 20 18:53:09.564997 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r
+[Tue Jul 20 18:53:09.564997 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     response = self.full_dispatch_request()\r
+[Tue Jul 20 18:53:09.564997 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r
+[Tue Jul 20 18:53:09.564997 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     rv = self.handle_user_exception(e)\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     rv = self.dispatch_request()\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     return send_file(full_path, as_attachment=True)\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 612, in send_file\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     return werkzeug.utils.send_file(\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 708, in send_file\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067]     raise TypeError(\r
+[Tue Jul 20 18:53:09.565988 2021] [wsgi:error] [pid 14740:tid 1384] [client ::1:63067] TypeError: Unable to detect the MIME type because a file name is not available. Either set 'download_name', pass a path instead of a file, or set 'mimetype'.\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206] [2021-07-20 19:04:37,545] ERROR in app: Exception on /search/LeafDiskLabPoster(1).pptx [GET]\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206] Traceback (most recent call last):\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     response = self.full_dispatch_request()\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     rv = self.handle_user_exception(e)\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     rv = self.dispatch_request()\r
+[Tue Jul 20 19:04:37.550972 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r
+[Tue Jul 20 19:04:37.551978 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     return send_from_directory(full_path, filename, as_attachment=True)\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 700, in send_from_directory\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     return werkzeug.utils.send_from_directory(  # type: ignore\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 829, in send_from_directory\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206]     path = safe_join(os.fspath(directory), os.fspath(path))\r
+[Tue Jul 20 19:04:37.552087 2021] [wsgi:error] [pid 26024:tid 1360] [client ::1:63206] TypeError: expected str, bytes or os.PathLike object, not NoneType\r
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226] [2021-07-20 19:05:36,567] ERROR in app: Exception on /search/SATStudentScoreReport_1543892310856.pdf [GET]\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.568790 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     return send_from_directory(full_path, filename, as_attachment=True)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 700, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     return werkzeug.utils.send_from_directory(  # type: ignore\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 829, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226]     path = safe_join(os.fspath(directory), os.fspath(path))\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:05:36.569787 2021] [wsgi:error] [pid 26024:tid 1332] [client ::1:63226] TypeError: expected str, bytes or os.PathLike object, not NoneType\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243] [2021-07-20 19:06:48,824] ERROR in app: Exception on /search/SATStudentScoreReport_1543892310856.pdf [GET]\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243] Traceback (most recent call last):\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     response = self.full_dispatch_request()\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     rv = self.handle_user_exception(e)\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     rv = self.dispatch_request()\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r
+[Tue Jul 20 19:06:48.829874 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     return send_from_directory(full_path, filename, as_attachment=True)\r
+[Tue Jul 20 19:06:48.830873 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 700, in send_from_directory\r
+[Tue Jul 20 19:06:48.830873 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     return werkzeug.utils.send_from_directory(  # type: ignore\r
+[Tue Jul 20 19:06:48.830873 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 829, in send_from_directory\r
+[Tue Jul 20 19:06:48.830873 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243]     path = safe_join(os.fspath(directory), os.fspath(path))\r
+[Tue Jul 20 19:06:48.830873 2021] [wsgi:error] [pid 25544:tid 1428] [client ::1:63243] TypeError: expected str, bytes or os.PathLike object, not NoneType\r
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265] [2021-07-20 19:07:08,956] ERROR in app: Exception on /search/LeafDiskLabPoster(1).pptx [GET]\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.957294 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     return send_from_directory(full_path, filename, as_attachment=True)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 700, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     return werkzeug.utils.send_from_directory(  # type: ignore\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 829, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265]     path = safe_join(os.fspath(directory), os.fspath(path))\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:07:08.958333 2021] [wsgi:error] [pid 25544:tid 1364] [client ::1:63265] TypeError: expected str, bytes or os.PathLike object, not NoneType\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290] [2021-07-20 19:09:14,278] ERROR in app: Exception on /search/SATStudentScoreReport_1543892310856.pdf [GET]\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "C:\\Users/pradi/nps2021/app\\views.py", line 30, in download_file\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     return send_from_directory("C:/Users/pradi/Documents/nps2021-uploads", filename, as_attachment=True)\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\helpers.py", line 700, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     return werkzeug.utils.send_from_directory(  # type: ignore\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\werkzeug\\utils.py", line 829, in send_from_directory\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290]     path = safe_join(os.fspath(directory), os.fspath(path))\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:09:14.282954 2021] [wsgi:error] [pid 25544:tid 1340] [client ::1:63290] TypeError: expected str, bytes or os.PathLike object, not NoneType\r, referer: http://localhost:5000/search
+[Tue Jul 20 19:12:46.346727 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357] mod_wsgi (pid=15352): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Tue Jul 20 19:12:46.346727 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357] mod_wsgi (pid=15352): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Tue Jul 20 19:12:46.347666 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357] Traceback (most recent call last):\r
+[Tue Jul 20 19:12:46.347666 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Tue Jul 20 19:12:46.347666 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357]     from views import app as application\r
+[Tue Jul 20 19:12:46.347666 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357]   File "C:\\Users/pradi/nps2021/app\\views.py", line 5, in <module>\r
+[Tue Jul 20 19:12:46.347666 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357]     app = Flask(__name__, upload_folder='C:/Users/pradi/Documents/nps2021-uploads')\r
+[Tue Jul 20 19:12:46.347666 2021] [wsgi:error] [pid 15352:tid 1448] [client ::1:63357] TypeError: __init__() got an unexpected keyword argument 'upload_folder'\r
+[Thu Jul 22 13:48:43.449756 2021] [wsgi:error] [pid 5528:tid 1364] [client ::1:64931] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:48:43.840826 2021] [wsgi:error] [pid 5528:tid 1364] [client ::1:64931] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:48:44.910120 2021] [wsgi:error] [pid 5528:tid 1364] [client ::1:64931] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:48:44.911118 2021] [wsgi:error] [pid 5528:tid 1364] [client ::1:64931] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:56:25.441496 2021] [wsgi:error] [pid 5528:tid 1372] [client ::1:65087] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:56:25.644612 2021] [wsgi:error] [pid 5528:tid 1372] [client ::1:65087] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:56:40.135868 2021] [wsgi:error] [pid 5528:tid 1372] [client ::1:65087] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Thu Jul 22 13:56:40.136867 2021] [wsgi:error] [pid 5528:tid 1372] [client ::1:65087] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 11:42:18.649132 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158] There was a problem with Oracle ORA-12514: TNS:listener does not currently know of service requested in connect descriptor\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158] [2021-08-04 11:42:18,660] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]   File "C:\\Users/pradi/nps2021/app\\data.py", line 424, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158]     if cursor:\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:42:18.710923 2021] [wsgi:error] [pid 9764:tid 1340] [client ::1:49158] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.619741 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576] There was a problem with Oracle ORA-12514: TNS:listener does not currently know of service requested in connect descriptor\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.620738 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576] [2021-08-04 11:44:06,619] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.620738 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.620738 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.620738 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]   File "C:\\Users/pradi/nps2021/app\\data.py", line 424, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576]     if cursor:\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:44:06.621736 2021] [wsgi:error] [pid 15372:tid 1328] [client ::1:49576] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.287121 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888] There was a problem with Oracle ORA-12514: TNS:listener does not currently know of service requested in connect descriptor\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.288119 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888] [2021-08-04 11:45:22,287] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.288119 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.288119 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]   File "C:\\Users/pradi/nps2021/app\\data.py", line 424, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888]     if cursor:\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:45:22.289116 2021] [wsgi:error] [pid 23444:tid 1324] [client ::1:49888] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.566982 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001] There was a problem with Oracle ORA-12514: TNS:listener does not currently know of service requested in connect descriptor\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001] [2021-08-04 11:46:26,566] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.568013 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]   File "C:\\Users/pradi/nps2021/app\\data.py", line 424, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001]     if cursor:\r, referer: http://localhost:5000/search
+[Wed Aug 04 11:46:26.569009 2021] [wsgi:error] [pid 26076:tid 1324] [client ::1:50001] UnboundLocalError: local variable 'cursor' referenced before assignment\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.335777 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532] [2021-08-04 20:14:50,317] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]   File "C:\\Users/pradi/nps2021/app\\data.py", line 409, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532]     query_scores[max_index1] = -1\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:14:50.347292 2021] [wsgi:error] [pid 12300:tid 1352] [client ::1:60532] IndexError: index 0 is out of bounds for axis 0 with size 0\r, referer: http://localhost:5000/search
+[Wed Aug 04 20:15:28.329446 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:15:30.915286 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:15:31.609518 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:15:31.610515 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
