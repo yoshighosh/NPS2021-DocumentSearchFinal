@@ -2127,3 +2127,100 @@
 [Wed Aug 04 23:00:39.556142 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\nltk\\corpus\\util.py", line 94, in __load\r, referer: http://localhost:5000/search
 [Wed Aug 04 23:00:39.558175 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     args, kwargs = self.__args, self.__kwargs\r, referer: http://localhost:5000/search
 [Wed Aug 04 23:00:39.559135 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933] AttributeError: 'WordListCorpusReader' object has no attribute '_LazyCorpusLoader__args'\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:15:26.210594 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717] mod_wsgi (pid=16852): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Aug 04 23:15:26.210594 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717] mod_wsgi (pid=16852): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Aug 04 23:15:26.234840 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717] Traceback (most recent call last):\r
+[Wed Aug 04 23:15:26.234840 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Wed Aug 04 23:15:26.234840 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]     from views import app as application\r
+[Wed Aug 04 23:15:26.234840 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]   File "C:\\Users/pradi/nps2021/app\\views.py", line 53, in <module>\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]     def search():\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\scaffold.py", line 435, in decorator\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]     self.add_url_rule(rule, endpoint, f, **options)\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\scaffold.py", line 56, in wrapper_func\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]     return f(self, *args, **kwargs)\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1092, in add_url_rule\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717]     raise AssertionError(\r
+[Wed Aug 04 23:15:26.235869 2021] [wsgi:error] [pid 16852:tid 1388] [client ::1:62717] AssertionError: View function mapping is overwriting an existing endpoint function: search\r
+[Wed Aug 04 23:15:28.659868 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779] mod_wsgi (pid=16852): Failed to exec Python script file 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Aug 04 23:15:28.660864 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779] mod_wsgi (pid=16852): Exception occurred processing WSGI script 'C:/Users/pradi/nps2021/app/index/web.wsgi'.
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779] Traceback (most recent call last):\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]   File "C:/Users/pradi/nps2021/app/index/web.wsgi", line 5, in <module>\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]     from views import app as application\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]   File "C:\\Users/pradi/nps2021/app\\views.py", line 53, in <module>\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]     def search():\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\scaffold.py", line 435, in decorator\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]     self.add_url_rule(rule, endpoint, f, **options)\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\scaffold.py", line 56, in wrapper_func\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]     return f(self, *args, **kwargs)\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1092, in add_url_rule\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779]     raise AssertionError(\r
+[Wed Aug 04 23:15:28.661821 2021] [wsgi:error] [pid 16852:tid 1372] [client ::1:62779] AssertionError: View function mapping is overwriting an existing endpoint function: search\r
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828] [2021-08-04 23:16:31,212] ERROR in app: Exception on /collection [GET]\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]   File "C:\\Users/pradi/nps2021/app\\views.py", line 54, in collection\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]     fileNames = data.getAllFileNames()\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]   File "C:\\Users/pradi/nps2021/app\\data.py", line 478, in getAllFileNames\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828]     fileNames.append(filename)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:16:31.213527 2021] [wsgi:error] [pid 7008:tid 1400] [client ::1:52828] AttributeError: 'dict' object has no attribute 'append'\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547] [2021-08-04 23:17:30,488] ERROR in app: Exception on /collection [GET]\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547] Traceback (most recent call last):\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     response = self.full_dispatch_request()\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     rv = self.handle_user_exception(e)\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     rv = self.dispatch_request()\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "C:\\Users/pradi/nps2021/app\\views.py", line 55, in collection\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     return render_template('collections.html', data=fileNames)\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 148, in render_template\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     ctx.app.jinja_env.get_or_select_template(template_name_or_list),\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1068, in get_or_select_template\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     return self.get_template(template_name_or_list, parent, globals)\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 997, in get_template\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     return self._load_template(name, globals)\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 958, in _load_template\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     template = self.loader.load(self, name, self.make_globals(globals))\r
+[Wed Aug 04 23:17:30.560114 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\loaders.py", line 125, in load\r
+[Wed Aug 04 23:17:30.561116 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     source, filename, uptodate = self.get_source(environment, name)\r
+[Wed Aug 04 23:17:30.561116 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 59, in get_source\r
+[Wed Aug 04 23:17:30.561116 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     return self._get_source_fast(environment, template)\r
+[Wed Aug 04 23:17:30.561116 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 95, in _get_source_fast\r
+[Wed Aug 04 23:17:30.561116 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547]     raise TemplateNotFound(template)\r
+[Wed Aug 04 23:17:30.561116 2021] [wsgi:error] [pid 16108:tid 1420] [client ::1:59547] jinja2.exceptions.TemplateNotFound: collections.html\r
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155] [2021-08-04 23:17:39,221] ERROR in app: Exception on /collection [GET]\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155] Traceback (most recent call last):\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     rv = self.dispatch_request()\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "C:\\Users/pradi/nps2021/app\\views.py", line 55, in collection\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     return render_template('collections.html', data=fileNames)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 148, in render_template\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     ctx.app.jinja_env.get_or_select_template(template_name_or_list),\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1068, in get_or_select_template\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     return self.get_template(template_name_or_list, parent, globals)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 997, in get_template\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     return self._load_template(name, globals)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 958, in _load_template\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     template = self.loader.load(self, name, self.make_globals(globals))\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\loaders.py", line 125, in load\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     source, filename, uptodate = self.get_source(environment, name)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 59, in get_source\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     return self._get_source_fast(environment, template)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 95, in _get_source_fast\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155]     raise TemplateNotFound(template)\r, referer: http://localhost:5000/
+[Wed Aug 04 23:17:39.222177 2021] [wsgi:error] [pid 16108:tid 1396] [client ::1:57155] jinja2.exceptions.TemplateNotFound: collections.html\r, referer: http://localhost:5000/

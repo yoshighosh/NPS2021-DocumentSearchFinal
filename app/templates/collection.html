@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Ask Zeno - Collection</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/static/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+	{% include 'favicon.html' %}
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		{% include 'header.html' %}
+
+		<!-- Menu -->
+		{% include 'menu.html' %}
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<header>
+					<h1>Collection</h1>
+				</header>
+				<header>
+					<h2></h2>
+				</header>
+                <p>Here is a general overview of all the documents currently in the system.</p>
+				<div>
+					{% for item in data %}
+						<tr>
+							<div class="col-6-small"><a href="{{ url_for('download_file', filename=item) }}"> {{item}} </a></div>
+							
+							</br>
+						</tr>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/browser.min.js"></script>
+	<script src="/static/js/breakpoints.min.js"></script>
+	<script src="/static/js/util.js"></script>
+	<script src="/static/js/main.js"></script>
+
+</body>
+
+</html>

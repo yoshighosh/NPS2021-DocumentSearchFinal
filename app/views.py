@@ -49,5 +49,9 @@ if __name__ == '__main__':
    app.debug = True
 
 
+@app.route('/collection')
+def collection():
+   fileNames = data.getAllFileNames()
+   return render_template('collection.html', data=fileNames)
 
 

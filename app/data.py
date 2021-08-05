@@ -463,6 +463,31 @@ def getQuery(query):
     
     return fileNames
 
+def getAllFileNames():
+    try: 
+        con = cx_Oracle.connect('YOSHI/nps2021@192.168.1.82')
+        cursor = con.cursor()
+        
+        fileNames = []
+        
+        sql = ('select * from FILENAMES')
+        
+        cursor.execute(sql)
+        
+        for fileID, filepath, filename in cursor:
+            fileNames.append(filename)
+        
+        return fileNames
+            
+    except cx_Oracle.DatabaseError as e:
+        print("There was a problem with Oracle", e)
+
+
+    finally: 
+        if cursor:
+            cursor.close()
+        if con:
+            con.close()
 
 
 
