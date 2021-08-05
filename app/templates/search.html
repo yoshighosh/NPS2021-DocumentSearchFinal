@@ -75,7 +75,9 @@
 				<div>
 					{% for item in data %}
 						<tr>
-							<a href="{{ url_for('download_file', filename=item[0:]) }}"> {{item}} </a>
+							<div class="col-6-small"><a href="{{ url_for('download_file', filename=item[0:]) }}"> {{item}} </a></div>
+							<div class="col-6-small"><p> {{data[item]}} </p></div>
+							
 							</br>
 						</tr>
 					{% endfor %}

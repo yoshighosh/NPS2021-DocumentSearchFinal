@@ -1936,3 +1936,194 @@
 [Wed Aug 04 20:15:30.915286 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
 [Wed Aug 04 20:15:31.609518 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
 [Wed Aug 04 20:15:31.610515 2021] [wsgi:error] [pid 12300:tid 1336] [client ::1:61718] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:11.061614 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:49890] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:11.259508 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:49890] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:11.480676 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:49890] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:11.481632 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:49890] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:28.726962 2021] [wsgi:error] [pid 15920:tid 1352] [client ::1:54901] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:28.825365 2021] [wsgi:error] [pid 15920:tid 1352] [client ::1:54901] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:28.954455 2021] [wsgi:error] [pid 15920:tid 1352] [client ::1:54901] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:27:28.954878 2021] [wsgi:error] [pid 15920:tid 1352] [client ::1:54901] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:21.546157 2021] [wsgi:error] [pid 15920:tid 1320] [client ::1:53754] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:21.626832 2021] [wsgi:error] [pid 15920:tid 1320] [client ::1:53754] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:21.757141 2021] [wsgi:error] [pid 15920:tid 1320] [client ::1:53754] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:21.758142 2021] [wsgi:error] [pid 15920:tid 1320] [client ::1:53754] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:32.696296 2021] [wsgi:error] [pid 15920:tid 1336] [client ::1:58078] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:33.750669 2021] [wsgi:error] [pid 15920:tid 1336] [client ::1:58078] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:33.911745 2021] [wsgi:error] [pid 15920:tid 1336] [client ::1:58078] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:28:33.912742 2021] [wsgi:error] [pid 15920:tid 1336] [client ::1:58078] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:37:07.835688 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:57561] There was a problem with Oracle ORA-00942: table or view does not exist\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:37:07.908738 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:57561] There was a problem with Oracle ORA-00942: table or view does not exist\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:37:07.917681 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:57561] There was a problem with Oracle ORA-00942: table or view does not exist\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 20:37:08.002715 2021] [wsgi:error] [pid 15920:tid 1364] [client ::1:57561] There was a problem with Oracle ORA-00942: table or view does not exist\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:23:47.824267 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:63377] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:23:48.256426 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:63377] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:24:03.952662 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:63377] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:24:03.955658 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:63377] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:46:59.286972 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:47:01.006932 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.901582 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130] [2021-08-04 21:49:30,420] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.902580 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "C:\\Users/pradi/nps2021/app\\views.py", line 41, in upload_files\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.903576 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     data.loadInFile("/Users/pradi/documents/nps2021-uploads/" + new_file.filename)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.903576 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "C:\\Users/pradi/nps2021/app\\data.py", line 293, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.903576 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     loadInText(filepath)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.903576 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "C:\\Users/pradi/nps2021/app\\data.py", line 268, in loadInText\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.903576 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     fileText = getText(filepath)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.903576 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "C:\\Users/pradi/nps2021/app\\data.py", line 169, in getText\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     string_text = getPDFText(filepath)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "C:\\Users/pradi/nps2021/app\\data.py", line 37, in getPDFText\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     pages = convert_from_path(filename, 500)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\pdf2image\\pdf2image.py", line 222, in convert_from_path\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     images += parse_buffer_func(data)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\pdf2image\\parsers.py", line 21, in parse_buffer_to_ppm\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     images.append(Image.open(BytesIO(data[index : index + file_size])))\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\PIL\\Image.py", line 3009, in open\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     im = _open_core(fp, filename, prefix, formats)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\PIL\\Image.py", line 2996, in _open_core\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     _decompression_bomb_check(im.size)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\PIL\\Image.py", line 2905, in _decompression_bomb_check\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130]     raise DecompressionBombError(\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:49:33.926099 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:57130] PIL.Image.DecompressionBombError: Image size (186392576 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:55:38.800875 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:52657] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:55:39.953669 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:52657] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:58:36.736858 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:52657] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 21:58:36.738812 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:52657] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:04:38.533321 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:54801] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:04:38.693004 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:54801] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:05:27.813307 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:54801] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:05:27.817337 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:54801] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556] [2021-08-04 22:13:42,877] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "C:\\Users/pradi/nps2021/app\\data.py", line 395, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     text[fileID] = binaryToString(fileText)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]   File "C:\\Users/pradi/nps2021/app\\data.py", line 161, in binaryToString\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556]     return ''.join(chr(int(binary[i*8:i*8+8],2)) for i in range(len(binary)//8))\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:13:42.878492 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:51556] TypeError: object of type 'NoneType' has no len()\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041] [2021-08-04 22:15:44,863] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "C:\\Users/pradi/nps2021/app\\views.py", line 25, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     return render_template('search.html', data=fileNames)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 147, in render_template\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     return _render(\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\templating.py", line 128, in _render\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     rv = template.render(context)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 1304, in render\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     self.environment.handle_exception()\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\jinja2\\environment.py", line 925, in handle_exception\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     raise rewrite_traceback_stack(source=source)\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]   File "C:\\Users\\pradi\\nps2021\\app\\templates\\search.html", line 78, in top-level template code\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041]     <a href="{{ url_for('download_file', filename=item[0:]) }}"> {{item}} {{data[item]}} </a>\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:15:44.958323 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63041] TypeError: 'NoneType' object is not subscriptable\r, referer: http://localhost:5000/search
+[Wed Aug 04 22:16:53.617819 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:50955] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:16:53.869049 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:50955] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:17:03.424326 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:50955] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:17:03.425324 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:50955] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:18:18.573539 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:18:20.503779 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.187425 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809] [2021-08-04 22:20:51,004] ERROR in app: Exception on /upload_files [POST]\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809] Traceback (most recent call last):\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     rv = self.dispatch_request()\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "C:\\Users/pradi/nps2021/app\\views.py", line 41, in upload_files\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     data.loadInFile("/Users/pradi/documents/nps2021-uploads/" + new_file.filename)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "C:\\Users/pradi/nps2021/app\\data.py", line 293, in loadInFile\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     loadInText(filepath)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.209272 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "C:\\Users/pradi/nps2021/app\\data.py", line 268, in loadInText\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.226721 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     fileText = getText(filepath)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.226721 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "C:\\Users/pradi/nps2021/app\\data.py", line 169, in getText\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.226721 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     string_text = getPDFText(filepath)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.226721 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "C:\\Users/pradi/nps2021/app\\data.py", line 37, in getPDFText\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     pages = convert_from_path(filename, 500)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\pdf2image\\pdf2image.py", line 222, in convert_from_path\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     images += parse_buffer_func(data)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\pdf2image\\parsers.py", line 21, in parse_buffer_to_ppm\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     images.append(Image.open(BytesIO(data[index : index + file_size])))\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\PIL\\Image.py", line 3009, in open\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     im = _open_core(fp, filename, prefix, formats)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\PIL\\Image.py", line 2996, in _open_core\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     _decompression_bomb_check(im.size)\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\PIL\\Image.py", line 2905, in _decompression_bomb_check\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809]     raise DecompressionBombError(\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:20:51.227639 2021] [wsgi:error] [pid 5956:tid 1320] [client ::1:52809] PIL.Image.DecompressionBombError: Image size (186392576 pixels) exceeds limit of 178956970 pixels, could be decompression bomb DOS attack.\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:21:27.955858 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63612] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:21:29.272781 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63612] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:21:44.722202 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63612] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:21:44.724192 2021] [wsgi:error] [pid 5956:tid 1324] [client ::1:63612] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:22:58.192909 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:52181] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:23:00.565154 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:52181] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:26:30.554464 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:52181] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:26:30.559450 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:52181] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:28:48.266449 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:55063] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:28:50.159214 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:55063] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:29:53.393965 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:55063] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:29:53.396020 2021] [wsgi:error] [pid 5956:tid 1344] [client ::1:55063] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:31:04.043024 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:57940] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:31:04.132668 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:57940] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:31:26.727683 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:57940] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:31:26.729678 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:57940] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:37:11.708288 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:63528] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:37:12.482370 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:63528] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:40:24.567714 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:63528] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:40:24.569713 2021] [wsgi:error] [pid 5956:tid 1332] [client ::1:63528] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:44:23.637435 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:53076] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:44:23.878563 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:53076] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:47:53.186890 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:53076] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:47:53.188818 2021] [wsgi:error] [pid 5956:tid 1352] [client ::1:53076] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:55:01.762195 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:58754] Successfuly loaded file name into FILENAMES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:55:02.272374 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:58754] Successfuly loaded file data into FILES\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:56:30.198671 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:58754] Successfuly loaded file text into TEXT\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 22:56:30.200668 2021] [wsgi:error] [pid 5956:tid 1340] [client ::1:58754] Successfully loaded in file into database\r, referer: http://localhost:5000/upload_files
+[Wed Aug 04 23:00:39.533258 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933] [2021-08-04 23:00:39,313] ERROR in app: Exception on /search [POST]\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.534236 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933] Traceback (most recent call last):\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.536233 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 2070, in wsgi_app\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.536233 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     response = self.full_dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.537230 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1515, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.539230 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     rv = self.handle_user_exception(e)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.540221 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1513, in full_dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.540221 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     rv = self.dispatch_request()\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.541219 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\flask\\app.py", line 1499, in dispatch_request\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.542180 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.544174 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "C:\\Users/pradi/nps2021/app\\views.py", line 20, in search\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.545172 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     topScores = data.matchQuery(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.546169 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "C:\\Users/pradi/nps2021/app\\data.py", line 397, in matchQuery\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.548163 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     text["query"] = preprocessing(query)\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.549161 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "C:\\Users/pradi/nps2021/app\\data.py", line 86, in preprocessing\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.551156 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     stop_words = stopwords.words('english')\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.552152 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\nltk\\corpus\\util.py", line 120, in __getattr__\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.554147 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     self.__load()\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.556142 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]   File "c:\\users\\pradi\\nps2021\\Lib\\site-packages\\nltk\\corpus\\util.py", line 94, in __load\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.558175 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933]     args, kwargs = self.__args, self.__kwargs\r, referer: http://localhost:5000/search
+[Wed Aug 04 23:00:39.559135 2021] [wsgi:error] [pid 10980:tid 1352] [client ::1:57933] AttributeError: 'WordListCorpusReader' object has no attribute '_LazyCorpusLoader__args'\r, referer: http://localhost:5000/search
