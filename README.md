@@ -1,2 +1,2 @@
-# NPS2021-DocumentSearchFinal
-Final code for the document search application project made for NPS
+# DocumentSearchFinal
+Final code for the document search application project adapterd for AP Research 2021
